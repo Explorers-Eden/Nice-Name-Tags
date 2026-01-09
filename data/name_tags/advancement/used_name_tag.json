@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "used_name_tag": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_name_tag"
+    ]
+  ],
+  "rewards": {
+    "function": "name_tags:used_name_tag"
+  }
+}

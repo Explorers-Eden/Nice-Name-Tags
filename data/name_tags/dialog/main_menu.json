@@ -1,0 +1,227 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Nice Name Tags",
+  "external_title": "Nice Name Tags",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Click an option below to copy the text for the Name Tag to your clipboard.",
+      "color": "gray"
+    }
+  },
+  "after_action": "close",
+  "exit_action": {
+    "label": {
+      "translate": "mco.selectServer.close"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Mute Entity",
+      "tooltip": [
+        "Silences an Entity so that it cannot make a sound.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Silent",
+        "\n• silent",
+        "\n• Mute",
+        "\n• mute"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "mute"
+      }
+    },
+    {
+      "label": "Unmute Entity",
+      "tooltip": [
+        "Unsilences an Entity so that it can make a sound.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Unsilent",
+        "\n• unsilent",
+        "\n• Unmute",
+        "\n• unmute"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "unmute"
+      }
+    },
+    {
+      "label": "Keep As Baby",
+      "tooltip": [
+        "Locking the age of an Entity. Preventing it from growing up.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Baby",
+        "\n• baby",
+        "\n• AgeLock",
+        "\n• Age Lock",
+        "\n• agelock",
+        "\n• age lock"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "baby"
+      }
+    },
+    {
+      "label": "Can Grow Up",
+      "tooltip": [
+        "Removes the age lock from an Entity allowing it to grow up again.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Remove Baby",
+        "\n• RemoveBaby",
+        "\n• remove baby",
+        "\n• removebaby"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "removebaby"
+      }
+    },
+    {
+      "label": "No Collision",
+      "tooltip": [
+        "The affected Entity no longer collides with other Entities.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• No Collision",
+        "\n• NoCollision",
+        "\n• no collision",
+        "\n• nocollision"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "nocollision"
+      }
+    },
+    {
+      "label": "Collision",
+      "tooltip": [
+        "The affected Entity can collide with other Entities again.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Collision",
+        "\n• collision"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "collision"
+      }
+    },
+    {
+      "label": "On Fire",
+      "tooltip": [
+        "Set the affected Entity on fire (only visually).",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• On Fire",
+        "\n• on fire",
+        "\n• OnFire",
+        "\n• onfire"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "onfire"
+      }
+    },
+    {
+      "label": "No fire",
+      "tooltip": [
+        "Removes the visual fire from the affected entity.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• No Fire",
+        "\n• no fire",
+        "\n• NoFire",
+        "\n• nofire"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "nofire"
+      }
+    },
+    {
+      "label": "Stop Zombification",
+      "tooltip": [
+        "The affected entity can no longer zombify. Zoglins, Piglins & Piglin Brutes only.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• No Zombie",
+        "\n• no zombie",
+        "\n• NoZombie",
+        "\n• nozombie"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "nozombie"
+      }
+    },
+    {
+      "label": "Start Zombification",
+      "tooltip": [
+        "The affected entity can zombify again. Zoglins, Piglins & Piglin Brutes only.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Zombie",
+        "\n• zombie"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "zombie"
+      }
+    },
+    {
+      "label": "Villager Types",
+      "tooltip": "Changes the current type of a Villager.\n\nClick to choose type.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "name_tags:villager"
+      }
+    },
+    {
+      "label": "Clear Name",
+      "tooltip": [
+        "Removes the Custom Name from an Entity.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• ClearName",
+        "\n• Clear Name",
+        "\n• clearname",
+        "\n• clear name",
+        "\n• RemoveName",
+        "\n• Remove Name",
+        "\n• removename",
+        "\n• remove name"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "clearname"
+      }
+    },
+    {
+      "label": "Clear Modifications",
+      "tooltip": [
+        "Removes all Name Tag modifications from the affected Entity.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• ClearAll",
+        "\n• Clear All",
+        "\n• clearall",
+        "\n• clear all",
+        "\n• RemoveAll",
+        "\n• Remove All",
+        "\n• removeall",
+        "\n• remove all"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "clearall"
+      }
+    }
+  ]
+}

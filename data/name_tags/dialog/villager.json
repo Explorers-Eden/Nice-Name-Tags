@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Nice Name Tags",
+  "external_title": "Nice Name Tags",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Click an option below to copy the text for the Name Tag to your clipboard.",
+      "color": "gray"
+    }
+  },
+  "after_action": "close",
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "name_tags:main_menu"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Desert",
+      "tooltip": [
+        "Changes the type of the Villager to Desert.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Desert",
+        "\n• desert"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "desert"
+      }
+    },
+    {
+      "label": "Jungle",
+      "tooltip": [
+        "Changes the type of the Villager to Jungle.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Jungle",
+        "\n• jungle"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "jungle"
+      }
+    },
+    {
+      "label": "Plains",
+      "tooltip": [
+        "Changes the type of the Villager to Plains.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Plains",
+        "\n• plains"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "plains"
+      }
+    },
+    {
+      "label": "Savanna",
+      "tooltip": [
+        "Changes the type of the Villager to Savanna.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Savanna",
+        "\n• savanna"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "savanna"
+      }
+    },
+    {
+      "label": "Snow",
+      "tooltip": [
+        "Changes the type of the Villager to Snow.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Snow",
+        "\n• snow"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "snow"
+      }
+    },
+    {
+      "label": "Swamp",
+      "tooltip": [
+        "Changes the type of the Villager to Swamp.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Swamp",
+        "\n• swamp"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "swamp"
+      }
+    },
+    {
+      "label": "Taiga",
+      "tooltip": [
+        "Changes the type of the Villager to Taiga.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Taiga",
+        "\n• taiga"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "taiga"
+      }
+    }
+  ]
+}
