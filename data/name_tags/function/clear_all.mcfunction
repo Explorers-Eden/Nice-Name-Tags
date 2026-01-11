@@ -1,4 +1,5 @@
 data modify entity @s Age set from entity @s data.original_age
+execute as @s[type=villager] run data modify entity @s VillagerData.type set from entity @s data.original_type
 tag @s remove name_tag.keep_baby
 
 team leave @s

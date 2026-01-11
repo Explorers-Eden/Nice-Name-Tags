@@ -1,0 +1,43 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "silent"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "mute"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Silent"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Mute"
+          }
+        }
+      }
+    ]
+  }
+]

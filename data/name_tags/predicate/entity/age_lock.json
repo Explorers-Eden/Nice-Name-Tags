@@ -1,0 +1,61 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Baby"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "baby"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Age Lock"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "AgeLock"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "age lock"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "agelock"
+          }
+        }
+      }
+    ]
+  }
+]

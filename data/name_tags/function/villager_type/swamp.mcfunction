@@ -1,3 +1,4 @@
+execute unless data entity @s data.original_type run data modify entity @s data.original_type set from entity @s VillagerData.type
 data modify entity @s VillagerData.type set value "minecraft:swamp"
 data remove entity @s CustomName
 

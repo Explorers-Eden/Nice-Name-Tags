@@ -1,0 +1,43 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Remove Baby"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "RemoveBaby"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "remove baby"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "removebaby"
+          }
+        }
+      }
+    ]
+  }
+]

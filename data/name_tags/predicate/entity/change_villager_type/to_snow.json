@@ -1,0 +1,25 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "Snow"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "components": {
+            "minecraft:custom_name": "snow"
+          }
+        }
+      }
+    ]
+  }
+]

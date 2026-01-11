@@ -50,9 +50,9 @@
       }
     },
     {
-      "label": "Keep As Baby",
+      "label": "Change to/Keep Baby",
       "tooltip": [
-        "Locking the age of an Entity. Preventing it from growing up.",
+        "Changing and locking the age of the Entity as a baby.",
         "\n\n",
         "Accepted Texts:",
         "\n• Baby",
@@ -181,6 +181,64 @@
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "name_tags:villager"
+      }
+    },
+    {
+      "label": [
+        "Rainbow Sheep ",
+        {
+          "text": "(Vanilla)",
+          "color": "gray"
+        }
+      ],
+      "tooltip": [
+        "The Entity changes it's wool color constantly (Sheeps only).",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• jeb_"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "jeb_"
+      }
+    },
+    {
+      "label": [
+        "Upside Down ",
+        {
+          "text": "(Vanilla)",
+          "color": "gray"
+        }
+      ],
+      "tooltip": [
+        "The Entity flips on its head.",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Dinnerbone",
+        "\n• Grumm"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "Dinnerbone"
+      }
+    },
+    {
+      "label": [
+        "Toast Rabbit ",
+        {
+          "text": "(Vanilla)",
+          "color": "gray"
+        }
+      ],
+      "tooltip": [
+        "Changes the Entity variant to Toast (Rabbits only).",
+        "\n\n",
+        "Accepted Texts:",
+        "\n• Toast"
+      ],
+      "action": {
+        "type": "minecraft:copy_to_clipboard",
+        "value": "Toast"
       }
     },
     {
