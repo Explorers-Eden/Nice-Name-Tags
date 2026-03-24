@@ -1,8 +1,0 @@
-## Changes:
-- Performance improvements
-- Clearing all Modifications from Villagers also changes them back to their original type
-- Minor changes to Dialog texts
-- Added vanilla Name Tag modifications to Pause Menu
-
-## Fixes:
-- Particles shown when changing Villager type being at the players position instead of the Villagers

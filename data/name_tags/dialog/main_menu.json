@@ -50,40 +50,6 @@
       }
     },
     {
-      "label": "Change to/Keep Baby",
-      "tooltip": [
-        "Changing and locking the age of the Entity as a baby.",
-        "\n\n",
-        "Accepted Texts:",
-        "\n• Baby",
-        "\n• baby",
-        "\n• AgeLock",
-        "\n• Age Lock",
-        "\n• agelock",
-        "\n• age lock"
-      ],
-      "action": {
-        "type": "minecraft:copy_to_clipboard",
-        "value": "baby"
-      }
-    },
-    {
-      "label": "Can Grow Up",
-      "tooltip": [
-        "Removes the age lock from an Entity allowing it to grow up again.",
-        "\n\n",
-        "Accepted Texts:",
-        "\n• Remove Baby",
-        "\n• RemoveBaby",
-        "\n• remove baby",
-        "\n• removebaby"
-      ],
-      "action": {
-        "type": "minecraft:copy_to_clipboard",
-        "value": "removebaby"
-      }
-    },
-    {
       "label": "No Collision",
       "tooltip": [
         "The affected Entity no longer collides with other Entities.",
