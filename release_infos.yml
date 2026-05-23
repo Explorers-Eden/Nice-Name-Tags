@@ -1,7 +1,11 @@
 Project-ID: 9v4Ep7kA
+Mod-ID: mr_nice_name_tags
+Namespace: name_tags
+Slug: nice-name-tags
+Name: Nice Name Tags
 
 Meta Data:
-  Versions: 
+  Versions:
     - 26.1
     - 26.1.1
     - 26.1.2
